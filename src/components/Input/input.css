@@ -1,9 +1,16 @@
+.input-group { display: flex; flex-direction: column; gap: 6px; }
+.input-group label { font-size: 13px; font-weight: 600; color: #374151; }
 .input {
     background-color: #ffffff;
-    border: 2px solid;
-    border-color: #000000;
+    border: 2px solid #d1d5db;
     border-radius: 10px;
     height: 45px;
-    padding: 10px 20px;
+    padding: 10px 16px;
     width: 100%;
+    font-size: 14px;
+    color: #111827;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
 }
+.input:focus { outline: none; border-color: #2563eb; }
+.input::placeholder { color: #9ca3af; }

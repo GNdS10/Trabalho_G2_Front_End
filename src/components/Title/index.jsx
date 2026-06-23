@@ -1,9 +1,7 @@
 import "./title.css";
-
-export const Title = ({title}) => {
-  return (
+export const Title = ({ title, subtitle }) => (
     <div className="title">
-      <div className="text-wrapper">{title}</div>
+        <h1>{title}</h1>
+        {subtitle && <p>{subtitle}</p>}
     </div>
-  );
-};
+);
