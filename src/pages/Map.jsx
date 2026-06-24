@@ -11,10 +11,8 @@ const containerStyle = {
 
 // Como pegar a posição atual do usuário?
 // Dica: use Geolocation API do navegador
-const center = {
-  lat: -23.55052,
-  lng: -46.633308,
-};
+const center = { lat: -28.2620, lng: -52.4083 };
+
 
 export const Map = () => {
   const { token } = useAuth();
