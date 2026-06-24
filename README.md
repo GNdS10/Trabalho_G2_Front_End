@@ -1,8 +1,18 @@
-# Atitus Maps
+# AtitusMaps 🗺️
 
-## Sobre o Projeto
+Aplicação para cadastrar e visualizar pontos no Google Maps.
 
-O **Atitus Maps** é uma aplicação web que permite visualizar e cadastrar pontos geográficos em um mapa interativo. Usuários autenticados podem adicionar novos pontos clicando no mapa, que são salvos em um backend e exibidos para todos.
+## Sobre a API
 
-# Aluno: Gabriel Nogueira dos Santos
-#RA: 1127692
+As APIs disponibilizadas pelo professor estavam fora do ar durante o desenvolvimento. O professor autorizou o uso do **Supabase** como alternativa.
+
+## Tecnologias
+
+- React + Vite
+- Google Maps API
+- Supabase
+- Netlify
+
+##Aluno:
+
+Gabriel Nogueira dos Santos
